@@ -1,0 +1,76 @@
+* {
+  /* border: 1px gold solid; */
+  color: #C2AD4E;
+  font-family: 'Courgette', cursive;
+}
+
+body {
+  /* background-image: url("../images/full-bloom.png"); */
+  background-image: url("../images/black_board.jpg");
+  text-align: center;
+  font-size: 25px;
+}
+
+/* =========== nav-bar =========== */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #C2AD4E;
+  align-items: baseline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.banner {
+  margin: 5%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* =========  Services Page  ========== */
+
+li {
+  list-style-type: none;
+}
+
+/* ==========  Gallery Page  =========== */
+
+.gallery {
+	font-family: 'Gabriola';
+	color: black;
+	text-align: center;
+}
+
+div.polaroidleft {
+	transform: rotate(10deg);
+	width: 20%;
+  background-color: white;
+  padding: 7px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 50), 0 6px 20px 0 rgba(0, 0, 0, 50);
+  shadow: 0 4px 8px 0 rgba(0, 0, 0, 50), 0 6px 20px 0 rgba(0, 0, 0, 50);
+	margin-top: 1%;
+	margin-left: 25%;
+	float: left;
+}
+
+div.polaroidright {
+  transform: rotate(-10deg);
+  width: 20%;
+  background-color: white;
+  padding: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 50), 0 6px 20px 0 rgba(0, 0, 0, 50);
+  shadow: 0 4px 8px 0 rgba(0, 0, 0, 50), 0 6px 20px 0 rgba(0, 0, 0, 50);
+  margin-top: 1%;
+  margin-right: 25%;
+  float: right;
+}

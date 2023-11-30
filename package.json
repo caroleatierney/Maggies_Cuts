@@ -1,0 +1,20 @@
+{
+  "name": "maggies_cuts",
+  "version": "1.0.0",
+  "description": "Maggies Website without responsive coding This is my first website designed with my hairdresser. It works for computer size screens but needs to be coded to be responsive to tablets and phones.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
