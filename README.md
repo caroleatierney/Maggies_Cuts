@@ -7,6 +7,7 @@ type: nodemon server
 [nodemon] starting `node server.js`
 Listening on port 3000
 Go to: http://localhost:3000/
+
 Maggies Website without responsive coding
 This is my first website designed with my hairdresser.
 It works for computer size screens but needs to be coded to be responsive to tablets and phones.
